@@ -46,9 +46,28 @@ Para implementar as duas funções a seguir, você usará malloc():
 •  ft_strmapi
 •  ft_striteri
 •  ft_putchar_fd
-
-## Parte do Bonus
-Essa parte é apenas de Bonus 
 •  ft_putstr_fd
 •  ft_putendl_fd
 •  ft_putnbr_fd
+
+## Parte do Bonus
+Essa parte é apenas de Bonus, não é obrigatória mas é muito importante para entender alguns conceitos de listas, que posteriormente podem vir nos exames
+ATENÇÃO: o BONUS apenas será aceite de  a parte obrigatória toda estiver certa;
+
+No teu arquivo decabeçalho(libft.h) deve ir essa estrutura :
+typedef struct s_list
+{
+      void *content;
+      struct s_list *next;
+}            t_list;
+
+Com base nessa estrutura deve criar as  seguintes funções
+•  ft_lstnew
+•  ft_lstadd_front
+•  ft_lstsize
+•  ft_lstlast
+•  ft_lstadd_back
+•  ft_lstdelone
+•  ft_lstclear
+•  ft_lstiter
+•  ft_lstmap
